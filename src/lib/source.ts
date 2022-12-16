@@ -4,7 +4,7 @@ import { Camera, TileSource } from "../types"
 
 const tilesSourceTemplates: Record<TileSource, (x: string, y: string, z: string) => string> = {
   "stamen-watercolor": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/watercolor/${z}/${x}/${y}.jpg`,
-  "stamen-toner": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/toner/${z}/${x}/${y}.jpg`,
+  "stamen-toner": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/toner/${z}/${x}/${y}.png`,
   "stamen-terrain": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/terrain/${z}/${x}/${y}.jpg`,
   osm: (x, y, z) => `https://tile.openstreetmap.org/${x}/${y}/${z}.png`,
 }
