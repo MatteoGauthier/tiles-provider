@@ -7,7 +7,8 @@
     "build": "tsup src/index.ts",
     "dev": "npm run build -- --watch",
     "test": "vitest",
-    "test:ui": "vitest --ui",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui --watch",
     "test:coverage": "vitest run --coverage"
   },
   "keywords": [],
