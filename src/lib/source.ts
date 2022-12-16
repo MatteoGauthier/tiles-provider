@@ -1,9 +1,11 @@
 import { Camera, TileSource } from "../types"
 
+// @todo add an option to choose format (png, jpg, etc.)
+
 const tilesSourceTemplates: Record<TileSource, (x: string, y: string, z: string) => string> = {
-  "stamen-watercolor": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/watercolor/${x}/${y}/${z}.jpg`,
-  "stamen-toner": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/toner/${x}/${y}/${z}.jpg`,
-  "stamen-terrain": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/terrain/${x}/${y}/${z}.jpg`,
+  "stamen-watercolor": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/watercolor/${z}/${x}/${y}.jpg`,
+  "stamen-toner": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/toner/${z}/${x}/${y}.jpg`,
+  "stamen-terrain": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/terrain/${z}/${x}/${y}.jpg`,
   osm: (x, y, z) => `https://tile.openstreetmap.org/${x}/${y}/${z}.png`,
 }
 
