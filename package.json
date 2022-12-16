@@ -9,8 +9,7 @@
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui --watch",
-    "test:coverage": "vitest run --coverage",
-    "publish": "np"
+    "test:coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": {
