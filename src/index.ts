@@ -6,3 +6,5 @@ export function getRasterTile(source: Source, camera: Camera) {
     return getTilesFromTemplate(source, camera)
   }
 }
+
+export { Camera, Source }

@@ -1,5 +1,5 @@
 import { test, assert, assertType, expect, describe } from "vitest"
-import { Source, getRasterTile } from "../src"
+import { Source, getRasterTile } from "../dist"
 
 const camera = {
   x: 4,
