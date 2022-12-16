@@ -1,6 +1,6 @@
 {
   "name": "tiles-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get URLs of map tiles from different providers",
   "main": "index.js",
   "scripts": {
