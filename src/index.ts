@@ -2,11 +2,11 @@ import { getTilesFromTemplate } from "./lib/source"
 
 type Provider = "mapbox"
 
-// "https://stamen-tiles.a.ssl.fastly.net/watercolor"
 type TileSource = "stamen-watercolor"
 
 type SourceProvider = {
-  provider: Provider
+  source: TileSource
+  provider?: Provider
   variant?: string
   access_token?: string
 }
