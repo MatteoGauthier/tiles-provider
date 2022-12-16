@@ -8,7 +8,7 @@ const camera = {
 }
 const series = [
   ["stamen-watercolor", "https://stamen-tiles.a.ssl.fastly.net/watercolor/3/4/2.jpg"],
-  ["stamen-toner", "https://stamen-tiles.a.ssl.fastly.net/toner/3/4/2.jpg"],
+  ["stamen-toner", "https://stamen-tiles.a.ssl.fastly.net/toner/3/4/2.png"],
   ["stamen-terrain", "https://stamen-tiles.a.ssl.fastly.net/terrain/3/4/2.jpg"],
   ["osm", "https://tile.openstreetmap.org/4/2/3.png"],
 ]
