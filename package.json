@@ -2,9 +2,8 @@
   "name": "tiles-provider",
   "version": "1.1.2",
   "description": "Get URLs of map tiles from different providers",
-  "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --dts",
+    "build": "tsup src/index.ts --dts --format esm,cjs",
     "dev": "npm run build -- --watch",
     "test": "vitest run",
     "test:watch": "vitest --watch",
@@ -21,6 +20,13 @@
   "files": [
     "dist"
   ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@vitest/coverage-c8": "^0.25.8",
