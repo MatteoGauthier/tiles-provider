@@ -1,7 +1,7 @@
 {
   "name": "tiles-provider",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get URLs of map tiles from different providers",
   "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts",
@@ -9,7 +9,8 @@
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui --watch",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "publish": "np"
   },
   "keywords": [],
   "author": "",
