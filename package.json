@@ -9,7 +9,7 @@
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui --watch",
     "test:coverage": "vitest run --coverage",
-    "release": "np"
+    "release": "npm run build && np"
   },
   "keywords": [],
   "author": {
