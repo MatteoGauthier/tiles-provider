@@ -4,7 +4,7 @@
   "description": "Get URLs of map tiles from different providers",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts",
+    "build": "tsup src/index.ts --dts",
     "dev": "npm run build -- --watch",
     "test": "vitest run",
     "test:watch": "vitest --watch",
