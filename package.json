@@ -13,7 +13,14 @@
     "publish": "np"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Mattèo Gauthier",
+    "email": "matteo.gauthier@gmail.com",
+    "url": "https://matteogauthier.fr"
+  },
+  "files": [
+    "dist"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@vitest/coverage-c8": "^0.25.8",
