@@ -12,10 +12,13 @@ const series = [
   ["stamen-terrain", "https://stamen-tiles.a.ssl.fastly.net/terrain/4/2/3.jpg"],
   ["osm", "https://tile.openstreetmap.org/4/2/3.png"],
 ]
+
+// @todo Add test for subdomains (a, b, c)
+// @todo Check if the tile is the right one (position, zoom, etc.)
+
 series.forEach(([source, expected]) => {
   test(`With ${source} source`, () => {
     const output = getRasterTile(source as Source, camera)
     assert.equal(output, expected)
   })
-  // @todo Add test for subdomains (a, b, c)
 })

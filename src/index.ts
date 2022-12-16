@@ -24,5 +24,3 @@ export function getRasterTile(source: Source, camera: Camera) {
     return getTilesFromTemplate(source, camera)
   }
 }
-// console.log(getRasterTile("stamen-watercolor", { x: 5, y: 17, z: 9 }))
-// https://tile.openstreetmap.org/5/17/9.png
