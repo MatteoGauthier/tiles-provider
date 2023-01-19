@@ -1,6 +1,8 @@
+import { availableTilesSource } from "../constants"
+
 export type Provider = "mapbox"
 
-export type TileSource = "stamen-watercolor" | "stamen-toner" | "stamen-terrain" | "osm"
+export type TileSource = typeof availableTilesSource[number]["slug"]
 
 export type SourceProvider = {
   source: TileSource

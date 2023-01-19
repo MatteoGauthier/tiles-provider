@@ -25,3 +25,7 @@ import { getRasterTile } from "tiles-provider"
 const tile = getRasterTile("stamen-watercolor", { x: 0, y: 0, z: 0 })
 // "http://tile.stamen.com/watercolor/0/0/0.jpg"
 ```
+
+## Alternatives 
+
+- https://github.com/naturalatlas/tilestrata
