@@ -1,5 +1,6 @@
 import { getTilesFromTemplate } from "./lib/source"
 import { Camera, Source } from "./types"
+import { availableTilesSource } from "./constants"
 
 export function getRasterTile(source: Source, camera: Camera) {
   if (typeof source === "string") {
@@ -7,4 +8,4 @@ export function getRasterTile(source: Source, camera: Camera) {
   }
 }
 
-export { Camera, Source }
+export { Camera, Source, availableTilesSource }
