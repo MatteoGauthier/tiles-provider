@@ -1,6 +1,6 @@
 {
   "name": "tiles-provider",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Get URLs of map tiles from different providers",
   "scripts": {
     "build": "npm run test && tsup src/index.ts --dts --format esm,cjs",
