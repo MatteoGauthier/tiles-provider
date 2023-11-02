@@ -9,9 +9,9 @@ const camera = {
 
 // prettier-ignore
 const series = [
-  ["stamen-watercolor", "https://stamen-tiles.a.ssl.fastly.net/watercolor/3/4/2.jpg"],
-  ["stamen-toner", "https://stamen-tiles.a.ssl.fastly.net/toner/3/4/2.png"],
-  ["stamen-terrain", "https://stamen-tiles.a.ssl.fastly.net/terrain/3/4/2.jpg"],
+  ["stamen-watercolor", "https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/3/4/2.jpg"],
+  ["stamen-toner", "https://watercolormaps.collection.cooperhewitt.org/tile/toner/3/4/2.png"],
+  ["stamen-terrain", "https://watercolormaps.collection.cooperhewitt.org/tile/terrain/3/4/2.jpg"],
   ["osm", "https://tile.openstreetmap.org/4/2/3.png"],
   ["carto-light_all", "https://a.basemaps.cartocdn.com/light_all/3/4/2.png"],
   ["carto-dark_all", "https://a.basemaps.cartocdn.com/dark_all/3/4/2.png"],

@@ -7,9 +7,9 @@ import { Camera, TileSource } from "../types"
 
 // prettier-ignore
 const tilesSourceTemplates: Record<TileSource, (x: string, y: string, z: string) => string> = {
-  "stamen-watercolor": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/watercolor/${z}/${x}/${y}.jpg`,
-  "stamen-toner": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/toner/${z}/${x}/${y}.png`,
-  "stamen-terrain": (x, y, z) => `https://stamen-tiles.a.ssl.fastly.net/terrain/${z}/${x}/${y}.jpg`,
+  "stamen-watercolor": (x, y, z) => `https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/${z}/${x}/${y}.jpg`,
+  "stamen-toner": (x, y, z) => `https://watercolormaps.collection.cooperhewitt.org/tile/toner/${z}/${x}/${y}.png`,
+  "stamen-terrain": (x, y, z) => `https://watercolormaps.collection.cooperhewitt.org/tile/terrain/${z}/${x}/${y}.jpg`,
   osm: (x, y, z) => `https://tile.openstreetmap.org/${x}/${y}/${z}.png`,
   "carto-light_all": (x, y, z) => `https://a.basemaps.cartocdn.com/light_all/${z}/${x}/${y}.png`,
   "carto-dark_all": (x, y, z) => `https://a.basemaps.cartocdn.com/dark_all/${z}/${x}/${y}.png`,
